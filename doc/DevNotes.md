@@ -1,6 +1,8 @@
-# Notes
+# Dev Notes
 
-What did I have to do to get the system working?
+What did *I* have to do to get the system working?
+
+Please note, some of this may be redundant by some of the other processes. These were the things that I did that eventually got me to a solution. Check out `Instructions.md` for what *I believe* to be the minimum steps needed to implement the publisher subscriber nodes.
 
 *   Ensure ROS is properly installed with OpenCV stuff
     * 	ROS1 Melodic is currently on the system
