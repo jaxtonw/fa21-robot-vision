@@ -1,0 +1,2 @@
+cv_basics
+-DCATKIN_DEVEL_PREFIX=/home/jetson/TheBobombs/devel -DCMAKE_INSTALL_PREFIX=/home/jetson/TheBobombs/install -G Unix Makefiles
