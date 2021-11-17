@@ -41,3 +41,5 @@ $ sudo cmake -D CMAKE_BUILD_TYPE=RELEASE     -D INSTALL_PYTHON_EXAMPLES=ON     -
     -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") ..
 ```
 
+## Modifications to the tutorial
+Had to slightly modify the suggested "automatic addison" tutorial in one main way. Instead of using cv_bridge's img_to_cv2 function, I had to add `ros_numpy` and use `ros_numpy.numpify(data)` to translate the image to be viewed by numpy. This was suggested by this comment on Github https://github.com/ros-perception/vision_opencv/issues/207#issuecomment-931526796
